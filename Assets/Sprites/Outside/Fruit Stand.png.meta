@@ -1,0 +1,724 @@
+fileFormatVersion: 2
+guid: 8ef6694493332e048832dbf66dba0371
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Fruit Stand_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 19, y: -10}
+        - {x: 19, y: -4}
+        - {x: 21, y: -2}
+        - {x: 21, y: 1}
+        - {x: 25, y: 4}
+        - {x: 25, y: -2}
+        - {x: 28, y: -2}
+        - {x: 29, y: -3}
+        - {x: 29, y: -5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: d84b686b415adcc4ebd1ce2a292f8c81
+      internalID: -1217006231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fruit Stand_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 17, y: -17}
+        - {x: 17, y: -15}
+        - {x: 18, y: -15}
+        - {x: 18, y: -11}
+        - {x: 20, y: -10}
+        - {x: 29, y: -6}
+        - {x: 29, y: -17}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44770a2bac157dc469f18e78a1cebba6
+      internalID: 358248042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fruit Stand_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 17, y: -11}
+        - {x: 8, y: -11}
+        - {x: 8, y: -10}
+        - {x: 0, y: -10}
+        - {x: 8, y: 3}
+        - {x: 19, y: 3}
+        - {x: 18, y: -10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5220696b6fcb254894267ff4b8eb395
+      internalID: 805624595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fruit Stand_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 2, y: -17}
+        - {x: -1, y: -11}
+        - {x: 8, y: -11}
+        - {x: 8, y: -12}
+        - {x: 17, y: -12}
+        - {x: 17, y: -17}
+      tessellationDetail: 0
+      bones: []
+      spriteID: af90f74b32a2014469e14e284e79fc3e
+      internalID: -191172693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fruit Stand_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: -10}
+        - {x: -6, y: -6}
+        - {x: -6, y: 3}
+        - {x: 6, y: 3}
+        - {x: 6, y: 0}
+        - {x: 3, y: -3}
+        - {x: -1, y: -10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2d2d38c4be89d84581b8103703e0864
+      internalID: -1324824171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fruit Stand_5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -14, y: -5}
+        - {x: -20, y: 0}
+        - {x: -20, y: 3}
+        - {x: -7, y: 3}
+        - {x: -7, y: -8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca304d5008a084f4bb399a350833e4e5
+      internalID: 1532898635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fruit Stand_6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -18, y: -4}
+        - {x: -30, y: -12}
+        - {x: -30, y: -2}
+        - {x: -25, y: -2}
+        - {x: -25, y: 11}
+        - {x: -21, y: 6}
+        - {x: -21, y: -2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c99e1d52ffc0f143884c15a041f96cc
+      internalID: 295237533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fruit Stand_7
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -30, y: -17}
+        - {x: -30, y: -13}
+        - {x: -17, y: -4}
+        - {x: -14, y: -5}
+        - {x: -21, y: -17}
+      tessellationDetail: 0
+      bones: []
+      spriteID: d498a9838db46d343843343b4735e6f3
+      internalID: -1559577198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fruit Stand_8
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -20, y: -17}
+        - {x: -13, y: -6}
+        - {x: -4, y: -10}
+        - {x: -1, y: -13}
+        - {x: 1, y: -17}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c4d0d924c021974a9d77a2fa88a3163
+      internalID: 305061724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fruit Stand_9
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -20, y: -22}
+        - {x: -20, y: -28}
+        - {x: -21, y: -29}
+        - {x: -24, y: -29}
+        - {x: -25, y: -28}
+        - {x: -25, y: -22}
+        - {x: -27, y: -22}
+        - {x: -30, y: -18}
+        - {x: -15, y: -18}
+        - {x: -11, y: -22}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e1e73c7529951147934f913e722a3c6
+      internalID: -782716260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fruit Stand_10
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -9, y: -22}
+        - {x: -13, y: -18}
+        - {x: 14, y: -18}
+        - {x: 10, y: -22}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a2132d7335767e438e6e751cef61b02
+      internalID: 1612707267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fruit Stand_11
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 24, y: -22}
+        - {x: 24, y: -28}
+        - {x: 23, y: -29}
+        - {x: 20, y: -29}
+        - {x: 19, y: -28}
+        - {x: 19, y: -22}
+        - {x: 11, y: -22}
+        - {x: 15, y: -18}
+        - {x: 29, y: -18}
+        - {x: 26, y: -22}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a0735dafaf8d844485cafad33e156dc
+      internalID: 90612557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fruit Stand_12
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -13, y: 8}
+        - {x: -15, y: 8}
+        - {x: -17, y: 11}
+        - {x: -18, y: 11}
+        - {x: -20, y: 8}
+        - {x: -22, y: 8}
+        - {x: -25, y: 11}
+        - {x: -25, y: 19}
+        - {x: -23, y: 20}
+        - {x: -17, y: 20}
+        - {x: -12, y: 13}
+        - {x: -12, y: 10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: de3506e077701d14099c0c872abaef40
+      internalID: -1339424164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fruit Stand_13
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -18, y: 21}
+        - {x: -23, y: 21}
+        - {x: -25, y: 20}
+        - {x: -25, y: 29}
+        - {x: -13, y: 29}
+        - {x: -10, y: 25}
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6633a9c114697a47bbf5f2c993e5e23
+      internalID: -1467954342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fruit Stand_14
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -2, y: 19}
+        - {x: -12, y: 29}
+        - {x: 2, y: 29}
+        - {x: -1, y: 19}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 236a8947ee7718e4ab352f7e12d57131
+      internalID: 1505377527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fruit Stand_15
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 0, y: 20}
+        - {x: 3, y: 29}
+        - {x: 23, y: 29}
+        - {x: 9, y: 23}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1509d6f6e356e244a9808e463e3f720
+      internalID: -819249086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fruit Stand_16
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 17, y: 17}
+        - {x: 12, y: 17}
+        - {x: 12, y: 18}
+        - {x: 4, y: 18}
+        - {x: 4, y: 20}
+        - {x: 25, y: 28}
+        - {x: 25, y: 20}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b323472dd4612f41a2a72870f93f9a2
+      internalID: 1348881074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fruit Stand_17
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 21, y: 3}
+        - {x: 21, y: 8}
+        - {x: 17, y: 11}
+        - {x: 17, y: 16}
+        - {x: 25, y: 19}
+        - {x: 25, y: 5}
+        - {x: 23, y: 3}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c6686468a8291041b37d2e017271a54
+      internalID: 1706323929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fruit Stand_18
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 10, y: 11}
+        - {x: 7, y: 8}
+        - {x: 3, y: 11}
+        - {x: 0, y: 8}
+        - {x: -4, y: 11}
+        - {x: -6, y: 8}
+        - {x: -8, y: 8}
+        - {x: -11, y: 12}
+        - {x: 0, y: 18}
+        - {x: 4, y: 18}
+        - {x: 4, y: 17}
+        - {x: 12, y: 17}
+        - {x: 12, y: 16}
+        - {x: 17, y: 16}
+        - {x: 17, y: 13}
+        - {x: 15, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4558c646460d9e8418915157899fbee7
+      internalID: 2032421301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fruit Stand_19
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -11, y: 13}
+        - {x: -12, y: 13}
+        - {x: -15, y: 20}
+        - {x: -13, y: 23}
+        - {x: -7, y: 24}
+        - {x: -2, y: 17}
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc54e19683ecad346ab7ba7b8f2a5cbb
+      internalID: -936131065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Fruit Stand_0: -1217006231
+      Fruit Stand_1: 358248042
+      Fruit Stand_10: 1612707267
+      Fruit Stand_11: 90612557
+      Fruit Stand_12: -1339424164
+      Fruit Stand_13: -1467954342
+      Fruit Stand_14: 1505377527
+      Fruit Stand_15: -819249086
+      Fruit Stand_16: 1348881074
+      Fruit Stand_17: 1706323929
+      Fruit Stand_18: 2032421301
+      Fruit Stand_19: -936131065
+      Fruit Stand_2: 805624595
+      Fruit Stand_3: -191172693
+      Fruit Stand_4: -1324824171
+      Fruit Stand_5: 1532898635
+      Fruit Stand_6: 295237533
+      Fruit Stand_7: -1559577198
+      Fruit Stand_8: 305061724
+      Fruit Stand_9: -782716260
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
