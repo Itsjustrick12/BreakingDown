@@ -136,7 +136,7 @@ public class PlayerInteract : MonoBehaviour
 
             //Check the location for an interactable object and call it's interact function
 
-            Collider2D[] objs = Physics2D.OverlapBoxAll(checkPoint, new Vector2(2, 2), 0, whatCanInteract);
+            Collider2D[] objs = Physics2D.OverlapBoxAll(checkPoint, new Vector2(0.1f, 0.1f), 0, whatCanInteract);
 
             if (objs.Length > 0)
             {

@@ -17,5 +17,5 @@ MonoBehaviour:
   atkBoost: 3
   speedBoost: 1.2
   atkSpeedBoost: 0.4
-  knockbackBoost: 10
+  knockbackBoost: 2
   duration: 3

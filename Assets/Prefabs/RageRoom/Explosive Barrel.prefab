@@ -202,10 +202,11 @@ MonoBehaviour:
   throwDamage: 3
   throwForce: 10
   fragile: 1
-  explosionRadius: 2
+  explosionRadius: 2.5
   explosionDamage: 10
   explosionForce: 5
   explosionPause: 2
+  explosionEffect: {fileID: 3695990512967283363, guid: 6054ceceb38929e4ea33c10173e4a260, type: 3}
 --- !u!114 &4761827679767066160
 MonoBehaviour:
   m_ObjectHideFlags: 0

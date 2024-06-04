@@ -1,0 +1,454 @@
+fileFormatVersion: 2
+guid: 6fee5e199054e9b4d92c6bb9a5c0f15b
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Couch_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 16, y: -9}
+        - {x: 16, y: -14}
+        - {x: 14, y: -14}
+        - {x: 12, y: -16}
+        - {x: 9.716738, y: -14}
+        - {x: -10, y: -14}
+        - {x: -12, y: -16}
+        - {x: -14, y: -14}
+        - {x: -16, y: -14}
+        - {x: -16, y: -9}
+        - {x: -13, y: -6}
+        - {x: -13, y: 1}
+        - {x: -11, y: 3}
+        - {x: 11, y: 3}
+        - {x: 13, y: 1}
+        - {x: 13, y: -6}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 282527bb3fa697042b54f9c11267f075
+      internalID: -1076187238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Couch_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -16, y: -14}
+        - {x: -16, y: -9}
+        - {x: -14, y: -6}
+        - {x: -12, y: -6}
+        - {x: -11, y: -8}
+        - {x: -14, y: -14}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0860ed1903089d649a52897e2671f602
+      internalID: -569044889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Couch_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -7, y: -14}
+        - {x: -10, y: -14}
+        - {x: -11, y: -16}
+        - {x: -13, y: -16}
+        - {x: -13, y: -13}
+        - {x: -11, y: -9}
+        - {x: -7, y: -10}
+        - {x: -5, y: -12}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13e2af3905786cc40864c2822cb02a58
+      internalID: -44251017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Couch_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -5, y: -10}
+        - {x: -10, y: -8}
+        - {x: -9, y: -6}
+        - {x: -1, y: -6}
+        - {x: -4, y: -10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9e9aea22d4ab48449108ceb5510e27e
+      internalID: 237646687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Couch_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -6, y: -14}
+        - {x: 0, y: -6}
+        - {x: 1, y: -6}
+        - {x: 7, y: -14}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7437d364e986e0848a7acbbdc0a85d91
+      internalID: -1429613735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Couch_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 11, y: -16}
+        - {x: 5, y: -11}
+        - {x: 2, y: -6}
+        - {x: 9, y: -6}
+        - {x: 13, y: -16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9ca4326f86eeb5448e074bd9b825059
+      internalID: -1713382908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Couch_6
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 14, y: -14}
+        - {x: 11, y: -9}
+        - {x: 11, y: -6}
+        - {x: 14, y: -6}
+        - {x: 16, y: -9}
+        - {x: 16, y: -14}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3471a66d9b3dad499c343d45e891c46
+      internalID: 2107457227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Couch_7
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 11, y: -6}
+        - {x: 3, y: -6}
+        - {x: 7, y: -2}
+        - {x: 10, y: 1}
+        - {x: 13, y: 1}
+        - {x: 13, y: -5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bdf3385d15191f48b8bc826a47a707c
+      internalID: -1976708226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Couch_8
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 2, y: -5}
+        - {x: -1, y: 0}
+        - {x: -2, y: 3}
+        - {x: 11, y: 3}
+        - {x: 6, y: -3}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cbfd91aa1cc268468db937db63cf111
+      internalID: 1796606264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Couch_9
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 0, y: -6}
+        - {x: -8, y: -6}
+        - {x: -6, y: -2}
+        - {x: -2, y: 2}
+        - {x: 1, y: -4}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4efa7e4b3fd380b4aabbcadf715ab0b2
+      internalID: -582113206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Couch_10
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -12, y: -6}
+        - {x: -13, y: -5}
+        - {x: -13, y: 1}
+        - {x: -11, y: 3}
+        - {x: -3, y: 3}
+        - {x: -9, y: -6}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9865c005300350e4180c4af2aa3339cf
+      internalID: 1220061017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Couch_0: -1076187238
+      Couch_1: -569044889
+      Couch_10: 1220061017
+      Couch_2: -44251017
+      Couch_3: 237646687
+      Couch_4: -1429613735
+      Couch_5: -1713382908
+      Couch_6: 2107457227
+      Couch_7: -1976708226
+      Couch_8: 1796606264
+      Couch_9: -582113206
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

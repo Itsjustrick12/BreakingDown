@@ -32,6 +32,7 @@ public class GameManager : MonoBehaviour
     public int preStartDialouges = 1;
     public int[] dialougePointTriggers;
     private int currDialogue = -1;
+    private bool showingPre = true;
 
     //For Modifying player Stats
     private PlayerAttack playerAtk;
@@ -62,11 +63,18 @@ public class GameManager : MonoBehaviour
 
         if (!gameOver)
         {
+            if ((Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.Return) || Input.GetMouseButtonDown(0)) && showingPre)
+            {
+                if (currDialogue < preStartDialouges - 1)
+                {
+                    ShowNextDiaglogue(false);
+                }
+            }
+
             if (gameStarted)
             {
                 if (Input.GetKeyDown(KeyCode.Escape))
                 {
-                    Debug.Log("Pressing ESC");
                     if (!paused)
                     {
                         PauseGame();
@@ -76,6 +84,8 @@ public class GameManager : MonoBehaviour
                         UnPauseGame();
                     }
                 }
+
+
 
                 levelTimer -= Time.deltaTime;
                 timeText.text = ((int)levelTimer).ToString();
@@ -123,7 +133,7 @@ public class GameManager : MonoBehaviour
     public void Start()
     {
         //Start the game
-        StartCoroutine(playOpeningDialogues());
+        ShowNextDiaglogue(false);
 
     }
 
@@ -175,6 +185,7 @@ public class GameManager : MonoBehaviour
     //Upgrade the player's stats and display a message
     public void ShowNextDiaglogue(bool changeStats)
     {
+
         //Ensure no out of bounds errors for references
         if (currDialogue + 1 < dialogues.Length)
         {
@@ -182,7 +193,16 @@ public class GameManager : MonoBehaviour
             
             //Update the message box
             DialogueEffect dialogue = dialogues[currDialogue];
-            messageBox.ShowBox(dialogue);
+
+            if (currDialogue >= preStartDialouges - 1)
+            {
+                messageBox.ShowBox(dialogue, true);
+            }
+            else
+            {
+                Debug.Log("PRESTART DIALOUGE");
+                messageBox.ShowBox(dialogue, false);
+            }
             
             if (changeStats)
             {
@@ -191,9 +211,19 @@ public class GameManager : MonoBehaviour
                 playerMove.ChangeSpeed(dialogue.speedBoost);
             }
 
-            
+            if (showingPre && currDialogue == preStartDialouges - 1)
+            {
+                showingPre = false;
+                StartCoroutine(waitToStart(dialogue.duration));
+            }
         }
 
+    }
+
+    private IEnumerator waitToStart(float pause)
+    {
+        yield return new WaitForSeconds(pause);
+        StartGame();
     }
 
     //Stop the game and pull up level over UI
@@ -207,7 +237,7 @@ public class GameManager : MonoBehaviour
         AudioManager.instance.PlayMusic("Game Over");
 
         //Pause to show losing message
-        messageBox.ShowBox(failDialouge);
+        messageBox.ShowBox(failDialouge, true);
         
         yield return new WaitForSeconds(failDialouge.duration);
 
@@ -254,7 +284,7 @@ public class GameManager : MonoBehaviour
         AudioManager.instance.PlayMusic("Victory Theme");
 
         //Pause to show losing message
-        messageBox.ShowBox(victoryDialouge);
+        messageBox.ShowBox(victoryDialouge, true);
 
         yield return new WaitForSeconds(victoryDialouge.duration);
 
@@ -275,25 +305,29 @@ public class GameManager : MonoBehaviour
         
     }
 
-    public IEnumerator playOpeningDialogues()
+    /*public IEnumerator playOpeningDialogues()
     {
+        showingPre = true;
+
         if (!skipDialouge)
         {
-            for (int i = 0; i < preStartDialouges; i++)
+            for (currDialogue = 0; currDialogue < preStartDialouges; currDialogue++)
             {
-                DialogueEffect currDia = dialogues[i];
+                DialogueEffect currDia = dialogues[currDialogue];
+
                 ShowNextDiaglogue(false);
                 yield return new WaitForSeconds(currDia.duration + 0.1f);
             }
         }
         else
         {
+            currDialogue = -1;
             currDialogue += preStartDialouges;
         }
 
-
+        showingPre = false;
         StartGame();
-    }
+    }*/
 
     public void PauseGame()
     {

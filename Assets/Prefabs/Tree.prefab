@@ -147,7 +147,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objName: Wood
   points: 15
-  objHealth: 12
+  objHealth: 8
   rb: {fileID: 0}
   brokenObj: {fileID: 1162225455155770295, guid: 3574a4d35bb119846b680e50cf3cf9cc, type: 3}
 --- !u!50 &6152241648880143008

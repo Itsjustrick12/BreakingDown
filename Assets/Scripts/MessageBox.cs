@@ -11,16 +11,20 @@ public class MessageBox : MonoBehaviour
     public TextMeshProUGUI dialogueText;
     private float timer = 0f;
     private bool hidden = true;
+    private bool allowTimer = false;
 
     private void Update()
     {
 
-        if (timer >= 0 && !hidden)
+        if (allowTimer)
         {
-            timer -= Time.deltaTime;
-        }
-        else if (timer <= 0 && !hidden) {
-            HideBox();
+            if (timer >= 0 && !hidden)
+            {
+                timer -= Time.deltaTime;
+            }
+            else if (timer <= 0 && !hidden) {
+                HideBox();
+            }
         }
     }
 
@@ -60,11 +64,15 @@ public class MessageBox : MonoBehaviour
         }
         dialogueText.color = Color.black;
     }
-    public void ShowBox(DialogueEffect dialogue)
+    public void ShowBox(DialogueEffect dialogue, bool hideBox)
     {
         UpdateBox(dialogue);
         ShowBox();
-        HideBox(dialogue.duration);
+        if (hideBox)
+        {
+            allowTimer = true;
+            HideBox(dialogue.duration);
+        }
     }
 
     private void UpdateBox(DialogueEffect dialogue)

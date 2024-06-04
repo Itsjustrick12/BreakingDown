@@ -15,7 +15,7 @@ MonoBehaviour:
   portraitSprite: {fileID: 21300000, guid: 6871d6697cfc6d545b2fbb000a91f7c3, type: 3}
   dialougeText: You can now break walls!
   atkBoost: 2
-  speedBoost: 1
+  speedBoost: 1.2
   atkSpeedBoost: 0.3
   knockbackBoost: 5
   duration: 3

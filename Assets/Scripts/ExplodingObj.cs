@@ -14,6 +14,7 @@ public class ExplodingItem : ThrowableObject
     public float explosionPause = 2f;
 
     private CinemachineImpulseSource source;
+    [SerializeField] public GameObject explosionEffect;
 
     public override void BreakObj()
     {
@@ -77,6 +78,8 @@ public class ExplodingItem : ThrowableObject
         yield return new WaitForSeconds(explosionPause);
         Explode();
         GameObject broke = Instantiate(brokenObj);
+        GameObject eEffect = Instantiate(explosionEffect);
+        eEffect.transform.position = transform.position;
         broke.transform.position = transform.position;
         //Always explode this object
         broke.GetComponent<BrokenObj>().Burst();

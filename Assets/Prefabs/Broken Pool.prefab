@@ -410,7 +410,7 @@ MonoBehaviour:
   - {fileID: 5950196379109970939}
   - {fileID: 5629489682002066621}
   - {fileID: 3902593769968012537}
-  objWeight: 2
+  objWeight: 1
   burstForce: 10
   fadeTime: 3
   BurstOverride: 0
