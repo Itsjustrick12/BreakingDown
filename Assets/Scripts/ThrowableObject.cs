@@ -14,10 +14,8 @@ public class ThrowableObject : BreakableObj
     private float prevDrag;
     private float prevMass;
 
-    [SerializeField] int numToBreak = 1;
     [SerializeField] int throwDamage = 3;
     [SerializeField] float throwForce = 10;
-    [SerializeField] bool fragile = true;
 
     private void Awake()
     {

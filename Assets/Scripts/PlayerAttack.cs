@@ -24,8 +24,6 @@ public class PlayerAttack : MonoBehaviour
 
     private CinemachineImpulseSource source;
 
-    [SerializeField] private float spinSpeed = 1;
-
     private bool canAttack = true;
 
     private RotateWeapon weapon;

@@ -950,6 +950,8 @@ MonoBehaviour:
   - {fileID: 5029343190309587967}
   - {fileID: 3266722401482681473}
   - {fileID: 103453981201062631}
+  - {fileID: 4255423714195577709}
+  - {fileID: 6693792910689880234}
   objWeight: 0
   burstForce: 10
   fadeTime: 3

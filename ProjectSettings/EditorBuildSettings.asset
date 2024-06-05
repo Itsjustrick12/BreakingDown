@@ -15,6 +15,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Rage Room.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
+    path: Assets/Scenes/House.unity
+    guid: a0fb945eb59b29c4b834cfbd1031a599
+  - enabled: 1
     path: Assets/Scenes/Bar.unity
     guid: d9e04be24a8a9d547892891caaf344f9
   - enabled: 1

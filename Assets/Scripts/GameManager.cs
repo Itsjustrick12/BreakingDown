@@ -47,7 +47,6 @@ public class GameManager : MonoBehaviour
     [SerializeField] GameObject PlayerHUD;
     [SerializeField] GameObject pauseUI;
     private bool paused = false;
-    private bool boxOverride = false;
 
     //Score
     [SerializeField] public bool doCountWalls = false;

@@ -769,6 +769,7 @@ MonoBehaviour:
   - {fileID: 1742463300548340249}
   - {fileID: 3204820219097799089}
   - {fileID: 3275853426709237613}
+  - {fileID: 56248551428161748}
   objWeight: 0
   burstForce: 10
   fadeTime: 3
