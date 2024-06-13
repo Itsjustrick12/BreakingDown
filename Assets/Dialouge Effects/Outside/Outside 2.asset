@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Outside 2
   m_EditorClassIdentifier: 
   portraitSprite: {fileID: 2019289269, guid: 4e238c0c80300004cba9224e86c6c924, type: 3}
-  dialougeText: Are you serious? Theres no way!
+  dialougeText: Are you serious?
   atkBoost: 0
   speedBoost: 1
   atkSpeedBoost: 0.4

@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a03cb6f75f692f74a83823a5a498ddc0, type: 3}
+  m_Name: Prison 7
+  m_EditorClassIdentifier: 
+  portraitSprite: {fileID: 21300000, guid: 18c5c606aa971164ca449557a92a442e, type: 3}
+  dialougeText: Nice! Got the dectors off!
+  atkBoost: 0.1
+  speedBoost: 1.4
+  atkSpeedBoost: 0.3
+  knockbackBoost: 0
+  duration: 3

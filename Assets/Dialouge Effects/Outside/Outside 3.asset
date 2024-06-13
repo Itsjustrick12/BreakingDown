@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Outside 3
   m_EditorClassIdentifier: 
   portraitSprite: {fileID: 2019289269, guid: 4e238c0c80300004cba9224e86c6c924, type: 3}
-  dialougeText: He wishes I'd pay that much!
+  dialougeText: I'm not paying $7 for an orange!
   atkBoost: 3
   speedBoost: 1.2
   atkSpeedBoost: 0.4

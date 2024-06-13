@@ -7,6 +7,7 @@ using System.Xml.Serialization;
 using UnityEngine.Animations;
 using UnityEngine.SocialPlatforms.Impl;
 using Unity.VisualScripting;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -28,7 +29,6 @@ public class GameManager : MonoBehaviour
     public DialogueEffect[] dialogues;
     public DialogueEffect victoryDialouge;
     public DialogueEffect failDialouge;
-    public bool skipDialouge = false;
     public int preStartDialouges = 1;
     public int[] dialougePointTriggers;
     private int currDialogue = -1;
@@ -284,6 +284,12 @@ public class GameManager : MonoBehaviour
 
         //Pause to show losing message
         messageBox.ShowBox(victoryDialouge, true);
+        
+        if (PlayerPrefs.GetFloat("Level" + (SceneManager.GetActiveScene().buildIndex - 2) + "Time", 1000) > levelTimer)
+        {
+            PlayerPrefs.SetFloat("Level" + (SceneManager.GetActiveScene().buildIndex - 2) + "Time", levelTime-levelTimer);
+        }
+
 
         yield return new WaitForSeconds(victoryDialouge.duration);
 

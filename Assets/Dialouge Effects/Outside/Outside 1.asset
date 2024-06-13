@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Outside 1
   m_EditorClassIdentifier: 
   portraitSprite: {fileID: 21300000, guid: 93ca4d05a49672847861159d97a50a58, type: 3}
-  dialougeText: Ok sir that will be $20 all together.
+  dialougeText: Ok, that orange will be $7
   atkBoost: 0
   speedBoost: 1
   atkSpeedBoost: 0.4

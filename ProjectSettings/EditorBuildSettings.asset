@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Title Screen.unity
     guid: 144e62f0f9242f34ebe3c52e5e9c1143
   - enabled: 1
+    path: Assets/Scenes/Level Select.unity
+    guid: 8b07a341aea3f734a844dd13b3648aa4
+  - enabled: 1
     path: Assets/Scenes/Tutorial Scene.unity
     guid: 45fdffb1fec24dd4ba2ab16d27b90886
   - enabled: 1
@@ -23,4 +26,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Outside.unity
     guid: 06371597d82870d448232974ef7b8cba
+  - enabled: 1
+    path: Assets/Scenes/Prison.unity
+    guid: ce66e080765f3f24c90e7eca3642e698
   m_configObjects: {}
