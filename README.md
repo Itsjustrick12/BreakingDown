@@ -2,4 +2,4 @@ Breaking Down is a 2D Pixel art game about breaking down all the objects in your
 
 If you want to see the full development of this project's game jam prototype, check out https://www.youtube.com/watch?v=VWRvVGCyvc8 !
 
-Some of the project files and names are a bit messy due to the rush of developing the project for the UMBC Game Developers 2024 Spring Break Jam.
+Breaking Down was made using the Unity game engine. Some of the project files and names are a bit messy due to the rush of developing the project for the UMBC Game Developers 2024 Spring Break Jam.
